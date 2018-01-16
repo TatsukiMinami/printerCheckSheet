@@ -6,6 +6,33 @@
   </head>
   <body>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <form action="/" method="POST" class="main-form">
+      <label>
+          用紙の種類
+          <br>
+          A3<input type="radio" name="pepar" value="A3">
+          A4<input type="radio" name="pepar" value="A4">
+          <br>
+      </label>
+      <label>
+          階数
+          <br>
+          33<input type="radio" name="floar" value="33">
+          35<input type="radio" name="floar" value="35">
+          <br>
+      </label>
+      <label>
+          クラス
+          <input type="text" name="class">
+          <br>
+      </label>
+      <label>
+          名前
+          <input type="text" name="name">
+          <br>
+      </label>
+      <input type="submit">
+      
+    </form>
   </body>
 </html>
