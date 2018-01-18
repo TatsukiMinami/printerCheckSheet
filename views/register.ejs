@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title><%= title %></title>
+    </head>
+    <body>
+       <form action="/regiser" method="POST">
+            <label>
+                学籍番号:
+                <input type="text" name="id">
+            </label><br>
+            <label>
+                名前:
+                <input type="text" name="user_name">
+            </label><br>
+            <label>
+                クラス番号:
+                <input type="text" name="class_number">
+            </label><br>
+            <label>
+                パスワード:
+                <input type="password" name="password">
+            </label>
+            <label>
+                <input type="submit">
+            </label>
+       </form> 
+    </body>
+</html>
