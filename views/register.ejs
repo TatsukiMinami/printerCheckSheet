@@ -4,7 +4,7 @@
         <title><%= title %></title>
     </head>
     <body>
-       <form action="/regiser" method="POST">
+       <form action="/register" method="POST">
             <label>
                 学籍番号:
                 <input type="text" name="id">
@@ -20,7 +20,11 @@
             <label>
                 パスワード:
                 <input type="password" name="password">
-            </label>
+            </label><br>
+            <label>
+                期:
+                <input type="text" name="generation">
+            </label><br>
             <label>
                 <input type="submit">
             </label>
